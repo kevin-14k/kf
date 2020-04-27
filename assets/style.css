@@ -1,0 +1,41 @@
+.jumbotron {
+	height: 70vh;
+	background: rgba(0, 0, 0, 0) url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini-dark.png") repeat scroll 0% 0%;
+	text-align: center;
+	margin: auto;
+}
+
+.display-4 {
+	color: #b3b3b3;
+}
+
+.display-5 {
+	color: #4d4d4d;
+}
+
+.t-align-c {
+	text-align: center;
+}
+
+.vertical-arrow {
+	color: white;
+	font-size: 56px;
+	margin-top: auto;
+}
+
+.projects {
+	margin: 4rem;
+}
+
+.bg-primary {
+	background: orange !important;
+}
+
+.fab {
+	font-size: 24px;
+}
+
+.card-body {
+	background: #181818;
+	color: white;
+}
