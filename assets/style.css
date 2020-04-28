@@ -24,18 +24,81 @@
 }
 
 .projects {
-	margin: 4rem;
+	margin: 6rem;
 }
 
 .bg-primary {
 	background: orange !important;
 }
 
-.fab {
-	font-size: 24px;
+.card-body {
+	background: #313131;
+	color: white;
 }
 
-.card-body {
-	background: #181818;
+.card-body-reverse {
+	background: white;
+	color: #313131;
+}
+
+.btn {
+	margin-top: 10px;
+	width: 100%;
+	font-weight: 900;
+	border: 1px solid white;
+	border-radius: 0;
+}
+
+.btn-primary {
 	color: white;
+	background: none;
+}
+
+.btn-primary:hover {
+	color: #313131;
+	border-color: white;
+	background: white;
+}
+
+.btn-secondary {
+	color: #313131;
+	background: none;
+	border-color: #313131;
+}
+
+.btn-secondary:hover {
+	color: white;
+	border-color: #313131;
+	background: #313131;
+}
+
+.btn-disabled {
+    cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+    cursor: not-allowed;
+    background: none;
+    color: white;
+}
+
+
+.card:hover .card-img-top {
+  transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#footer {
+	background: #313131;
+	color: white;
+	font-weight: 100;
+}
+
+.fab {
+	font-size: 44px;
+	margin: 0 15px;
+	color: white;
+}
+
+.fab:hover {
+	color: #959595;
 }
