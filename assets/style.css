@@ -1,20 +1,40 @@
+/* Jumbotron */
+
 .jumbotron {
-	height: 70vh;
-	background: rgba(0, 0, 0, 0) url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini-dark.png") repeat scroll 0% 0%;
+	height: 100vh;
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/838981/pexels-photo-838981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/838981/pexels-photo-838981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/838981/pexels-photo-838981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	text-align: center;
 	margin: auto;
 }
 
-.display-4 {
-	color: #b3b3b3;
+.jumbotron--headline {
+	padding: 10rem 0;
 }
 
-.display-5 {
-	color: #4d4d4d;
+.jumbotron--headline-primary {
+	font-family: 'Concert One', cursive;
+	font-size: 64px;
+	color: #fff;
 }
 
-.t-align-c {
-	text-align: center;
+.jumbotron--headline-secondary {
+	font-family: 'Concert One', cursive;
+	font-size: 56px;
+	color: #a2a2a2;
+}
+
+.jumbotron--headline-lead {
+	font-family: 'Concert One', cursive;
+	font-size: 24px;
+	color: #e6e1e1;
+	margin-top: 3rem;
+}
+
+.jumbotron--headline-lead img {
+	height: 28px;
+	margin-bottom: 9px;
 }
 
 .vertical-arrow {
@@ -23,23 +43,29 @@
 	margin-top: auto;
 }
 
-.projects {
-	margin: 6rem;
+/* Sections */
+
+.section-head {
+	margin-bottom: 5rem;
 }
 
-.bg-primary {
-	background: orange !important;
+.section-head--title {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 900;
+	font-size: 2.5rem;
 }
 
-.card-body {
-	background: #313131;
-	color: white;
+.section-head--description {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
 }
 
-.card-body-reverse {
-	background: white;
-	color: #313131;
+.projects, .expertises {
+	margin-top: 7rem;
 }
+
+/* Buttons */
 
 .btn {
 	margin-top: 10px;
@@ -82,10 +108,7 @@
     color: white;
 }
 
-
-.card:hover .card-img-top {
-  transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+/* Footer */
 
 #footer {
 	background: #313131;
@@ -93,12 +116,51 @@
 	font-weight: 100;
 }
 
+/* Font Awesome */
+
 .fab {
-	font-size: 44px;
+	font-size: 34px;
 	margin: 0 15px;
 	color: white;
 }
 
 .fab:hover {
 	color: #959595;
+}
+
+/* Expertise */
+
+.expertise {
+	background: white;
+	border-radius: 0.25rem;
+	padding: 17px;
+}
+
+.expertise .fas {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.expertises--cards {
+	background: rgba(0, 0, 0, 0) url("https://www.toptal.com/designers/subtlepatterns/patterns/vintage-wallpaper.png") repeat scroll 0% 0%;
+	padding: 8rem 0;
+}
+
+/* Card */
+
+.card figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	color: white;
+	border-radius: calc(.25rem - 1px);
+}
+
+.card figcaption:hover {
+	opacity: 1;
+	background: #000000d1;
+
 }
