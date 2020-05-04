@@ -164,3 +164,17 @@
 	background: #000000d1;
 
 }
+
+/* Breakpoints */
+
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 2100px) {
+
+}
