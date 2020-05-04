@@ -131,9 +131,14 @@
 /* Expertise */
 
 .expertise {
+	font-family: 'Concert One', cursive;
 	background: white;
 	border-radius: 0.25rem;
 	padding: 17px;
+}
+
+.expertise p {
+	color: #7d7a7a;
 }
 
 .expertise .fas {
@@ -164,6 +169,19 @@
 	background: #000000d1;
 
 }
+
+.card {
+	font-family: 'Concert One', cursive;
+}
+
+.card h1 {
+	font-size: 24px;
+}
+
+.card p {
+	font-size: 14px;
+}
+
 
 /* Breakpoints */
 
