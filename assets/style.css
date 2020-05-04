@@ -15,13 +15,13 @@
 
 .jumbotron--headline-primary {
 	font-family: 'Concert One', cursive;
-	font-size: 64px;
+	font-size: 56px;
 	color: #fff;
 }
 
 .jumbotron--headline-secondary {
 	font-family: 'Concert One', cursive;
-	font-size: 56px;
+	font-size: 48px;
 	color: #a2a2a2;
 }
 
@@ -168,7 +168,22 @@
 /* Breakpoints */
 
 @media (min-width: 992px) {
-	
+	.jumbotron--headline {
+		padding: 10rem 0;
+	}
+
+	.jumbotron--headline-primary {
+		font-size: 64px;
+	}
+
+	.jumbotron--headline-secondary {
+		font-size: 56px;
+	}
+
+	.jumbotron--headline-lead {
+		font-size: 24px;
+		margin-top: 3rem;
+	}
 }
 
 @media (min-width: 1200px) {
